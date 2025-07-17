@@ -8,40 +8,27 @@ This repository contains the first phase of a project that integrates Retrieval-
    ```bash
    git clone https://github.com/fouad64/first-commit.git
    cd first-commit
-Create and activate a virtual environment:
-bash
+2.Create and activate a virtual environment:
+```bash
 
-Collapse
 
-Wrap
-
-Run
-
-Copy
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies:
+
+3.Install dependencies:
 If requirements.txt exists, run:
-bash
+```bash
 
-Collapse
 
-Wrap
-
-Run
-
-Copy
 pip install -r requirements.txt
 Otherwise, install manually.
+
+
 Set up your OpenRouter API key in a .env file:
 plaintext
-
-Collapse
-
-Wrap
-
-Copy
+```bash
 OPENROUTER_API_KEY=your_api_key_here
+-------------------------------------------------------------
 Usage
 Ensure all PDFs are placed in the data/pdfs directory.
 Update the URL_LIST in config.py with desired web URLs.
