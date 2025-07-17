@@ -49,7 +49,10 @@ Build and persist the index:
 
 python index_builder.py
 `````
-Future Development
+# Future Development
 This is the first phase of the project. The second phase, which includes a GUI, is currently under development. The repository for the GUI phase will be linked here once available:(https://github.com/mohesham59/Assistant-using-agentic-ai-for-O-RAN)
-Contributing
+
+
+
+# Contributing
 Feel free to fork this repository, submit issues, or create pull requests for improvements.
