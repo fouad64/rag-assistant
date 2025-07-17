@@ -14,6 +14,7 @@ This repository contains the first phase of a project that integrates Retrieval-
 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+`````
 
 3.Install dependencies:
 If requirements.txt exists, run:
@@ -21,6 +22,7 @@ If requirements.txt exists, run:
 
 
 pip install -r requirements.txt
+`````
 Otherwise, install manually.
 
 
@@ -28,43 +30,25 @@ Set up your OpenRouter API key in a .env file:
 plaintext
 ```bash
 OPENROUTER_API_KEY=your_api_key_here
--------------------------------------------------------------
+`````
 Usage
 Ensure all PDFs are placed in the data/pdfs directory.
 Update the URL_LIST in config.py with desired web URLs.
 Run the data loader:
 bash
 
-Collapse
-
-Wrap
-
-Run
-
-Copy
+```bash
 python data_loader.py
+`````
 Set up the Chroma database:
-bash
-
-Collapse
-
-Wrap
-
-Run
-
-Copy
+```bash
 python chroma_integration.py
+`````
 Build and persist the index:
-bash
+```bash
 
-Collapse
-
-Wrap
-
-Run
-
-Copy
 python index_builder.py
+`````
 Future Development
 This is the first phase of the project. The second phase, which includes a GUI, is currently under development. The repository for the GUI phase will be linked here once available: [GUI Repository Link TBD - Please send the link to include it].
 
